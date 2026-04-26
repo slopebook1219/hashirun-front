@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-export default function RegisterPage() {
+export default function Page() {
   // 1. 入力内容を保存する「変数」を用意
   const [formData, setFormData] = useState({
     username: '',
